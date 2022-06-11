@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "437797410523",
+    "project_id": "glean-cookbook",
+    "storage_bucket": "glean-cookbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437797410523:android:e33bacfec13c5b5bff5efe",
+        "android_client_info": {
+          "package_name": "com.example.glean_cookbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437797410523-degasoq9gpo6bbqomf1mt06ndpcnd0dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0Pd2d4wDU6aL3whmLpnwBdcidarSgDtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437797410523-degasoq9gpo6bbqomf1mt06ndpcnd0dc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "437797410523-c0saavb5a47eoj0d0ce6v3uot9r97hr3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gleanCookbook"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

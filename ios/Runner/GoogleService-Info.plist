@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>437797410523-c0saavb5a47eoj0d0ce6v3uot9r97hr3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.437797410523-c0saavb5a47eoj0d0ce6v3uot9r97hr3</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>437797410523-3b65f4e6vp8hkoo3lkr2r2jfeh0ii8mi.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBEIhtLdIzrxEIcCLW-ksMf365-VPeDBhQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>437797410523</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.gleanCookbook</string>
+	<key>PROJECT_ID</key>
+	<string>glean-cookbook</string>
+	<key>STORAGE_BUCKET</key>
+	<string>glean-cookbook.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:437797410523:ios:e00ac688132d8c89ff5efe</string>
+</dict>
+</plist>
