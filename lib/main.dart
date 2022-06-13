@@ -1,11 +1,12 @@
 // ignore_for_file: prefer_const_constructors
-import 'package:glean_cookbook/views/home.dart';
-import 'package:glean_cookbook/views/login.dart';
-import 'package:glean_cookbook/views/signup.dart';
-import 'dependencies/splashscreen.dart';
 
+import 'dart:html';
+
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:glean_cookbook/views/home.dart';
+import 'package:glean_cookbook/views/login.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -13,6 +14,11 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
+  FirebaseFirestore firestore = FirebaseFirestore.instance;
+  firestore.useFirestoreEmulator("localhost", 8080);
+  // firestore.useFirestoreEmulator("10.0.2.2", 8080);
+
   runApp(MyApp());
 }
 
@@ -22,18 +28,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SplashScreen(
-        loadingText: Text("Loading"),
-        seconds: 1,
-        navigateAfterSeconds: const SignupScreen(),
-        useLoader: false,
-        title: Text(""),
-        backgroundColor: Colors.white,
-        loadingTextPadding: EdgeInsets.all(0),
-        styleTextUnderTheLoader: TextStyle(),
-        image: Image.asset("images/splash.gif"),
-        photoSize: 150,
-      ),
+      home: HomeScreen(),
     );
   }
 }
