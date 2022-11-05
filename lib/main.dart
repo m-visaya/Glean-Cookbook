@@ -1,13 +1,10 @@
-// ignore_for_file: prefer_const_constructors
-
-import 'dart:html';
-
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:glean_cookbook/views/home.dart';
-import 'package:glean_cookbook/views/login.dart';
+import 'package:glean_cookbook/home/home.dart';
 import 'firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
+// import 'package:cloud_firestore/cloud_firestore.dart';
+
+import 'package:glean_cookbook/routes.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,9 +12,10 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-  FirebaseFirestore firestore = FirebaseFirestore.instance;
-  firestore.useFirestoreEmulator("localhost", 8080);
-  // firestore.useFirestoreEmulator("10.0.2.2", 8080);
+  // uncomment when using firebase emulator
+  // FirebaseFirestore firestore = FirebaseFirestore.instance;
+  // FirebaseAuth.instance.useAuthEmulator("localhost", 9099);
+  // firestore.useFirestoreEmulator("localhost", 8080);
 
   runApp(MyApp());
 }
@@ -28,7 +26,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      routes: routes,
       home: HomeScreen(),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSwatch(
+          primarySwatch: Colors.lightGreen,
+        ).copyWith(
+          secondary: Colors.brown,
+        ),
+      ),
     );
   }
 }
