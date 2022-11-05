@@ -1,16 +1,86 @@
-# glean_cookbook
+<div align="center">
+  <img src="assets/images/logo_full.svg" alt="Glean Cookbook" height="200">
+</div>
+ 
+</br>
+&nbsp Glean Cookbook is a recipe cookbook application for the web e-commerce platform Glean Store,
+as a part of the Glean Project– a movement that aims to promote the local farming industry and prevent
+crop wastage. To preface, the latter is a website where customers can buy fresh and local pre-portioned
+ingredients from a variety of healthy dishes to be delivered right to their doorstep. Glean Cookbook
+provides users with easy to follow steps on how to properly cook meals they have bought from Glean
+Store.
+ 
+<br>
+<hr>
+<br>
 
-A new Flutter project.
+<h2> Promotional Video </h2>
 
-## Getting Started
+<div align="center">
+  <video src="assets/PROMO_GLEAN.mp4" controls="controls" style="max-width: 730px;" > </video>
+</div>
 
-This project is a starting point for a Flutter application.
+<br>
+<hr>
+<br>
 
-A few resources to get you started if this is your first Flutter project:
+</div>
+<div>
+    <h2>Technologies Used</h2>
+    <ul>
+        <li><a href="https://flutter.dev/">Flutter</a></li>
+        <li><a href="https://dart.dev/">Dart</a></li>
+        <li><a href="https://firebase.google.com/">Firebase</a></li>
+    </ul>
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<br>
+<hr>
+<br>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div>
+   <h2>Local Development</h2>
+
+   <h3>Clone the repository</h3>
+   In your prefered working directory open a terminal and type:
+   <br><br>
+  
+    git clone https://github.com/m-visaya/Glean-Cookbook.git
+  
+   <br>
+   <h3>Install the dependencies</h3>
+   Install flutter dependencies
+   <br><br>
+  
+    flutter pub get
+
+   <br>
+   <h3>Run the app</h3>
+   Depending on your OS and your installation, Flutter will ask you which target you want to use.
+   <br><br>
+  
+    flutter run
+
+</div>
+
+<br>
+<hr>
+<br>
+
+<div>
+    <h2>Acknowledgments</h2>
+    Promotional Video
+    <ul>
+        <li><a href="https://github.com/rcbern">@rcbern</a></li>
+        <li><a href="https://github.com/BKManabat">@BKManabat</a></li>
+    </ul>
+</div>
+
+<br>
+<hr>
+<br>
+
+<div>
+    <h2>License</h2>
+    Distributed under the GPL3 License. See LICENSE for more information.
+</div>
