@@ -11,17 +11,14 @@ provides users with easy to follow steps on how to properly cook meals they have
 Store.
  
 <br>
-<hr>
 <br>
 
 <h2> Promotional Video </h2>
 
 <div align="center">
-  <video src="assets/PROMO_GLEAN.mp4" controls="controls" style="max-width: 730px;" > </video>
+  <video autoplay src="https://user-images.githubusercontent.com/71896007/200113356-5e0db2d4-b565-448d-896c-5c8e05cd6436.mp4" controls="controls"" > </video>
 </div>
 
-<br>
-<hr>
 <br>
 
 </div>
@@ -35,10 +32,9 @@ Store.
 </div>
 
 <br>
-<hr>
-<br>
 
 <div>
+
    <h2>Local Development</h2>
 
    <h3>Clone the repository</h3>
@@ -64,8 +60,6 @@ Store.
 </div>
 
 <br>
-<hr>
-<br>
 
 <div>
     <h2>Acknowledgments</h2>
@@ -76,8 +70,6 @@ Store.
     </ul>
 </div>
 
-<br>
-<hr>
 <br>
 
 <div>
